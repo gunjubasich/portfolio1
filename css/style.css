@@ -35,7 +35,14 @@ html, body {
 }
 .bg_dark {
    	background-color: #222;
+   	color: white;
    }
+.bg_dark a {
+   	color: #fff;
+   }
+ .bg_dark .s_descr_wrap .s_descr:after {
+ 	background-color: #fff;
+ }
 .text-center {
    	text-align: center;
    }
@@ -226,6 +233,18 @@ html, body {
 	opacity: 0;
 	font-family: MontserrarR;
 }
+.top_mnu ul li:nth-child(1) a {
+	animation-duration: .5s;
+}
+.top_mnu ul li:nth-child(2) a {
+	animation-duration: 1s;
+}
+.top_mnu ul li:nth-child(3) a {
+	animation-duration: 1.5s;
+}
+.top_mnu ul li:nth-child(4) a {
+	animation-duration: 2s;
+}
 .top_mnu span {
 	display: block;
 	position: relative;
@@ -260,25 +279,27 @@ html, body {
 	/*box-shadow: rgba(0,0,0,.5) 0 0 0 700px; в оригинале почемуто это убрано*/
 	letter-spacing: 3px;
 	font-family: MontserratB;
+	animation-delay: .5s;
 }
 .top_descr p {
 	font-size: 1em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-family: MontserrarR;
+	animation-delay: .5s;
 }
 .opacify {
 	opacity: .4;
 	transition: all 0.5s ease;
 }
 section {
-	padding: 70px 0;
+	padding: 70px 0 80px;
 }
 section h2 {
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
-	margin: 0 0 20px;
+	margin: 0 0 15px;
 }
 .s_descr {
  display: inline-block;
@@ -298,4 +319,11 @@ section h2 {
 	margin-left: -75px;
 	margin-top: 60px;
 
+}
+
+.main_footer {
+	padding:50px 0;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 700;
 }

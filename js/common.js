@@ -1,5 +1,9 @@
 
 $(document).ready(function(){
+
+	$(".top_descr h1").animated("zoomInUp", "zoomOutDown");
+	$(".top_descr p, .section_header").animated("fadeInUp", "FadeOutDown");
+
 	$("#nav-icon3").click(function(){
 		$(this).toggleClass("open");
 	});
