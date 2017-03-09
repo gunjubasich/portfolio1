@@ -2,6 +2,8 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0;
+  	padding: 0; 
 }
 
 html, body {
@@ -21,9 +23,21 @@ html, body {
     font-family: MontserratB; /* Имя шрифта */
     src: url(../fonts/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
    }
-    @font-face {
+ @font-face {
     font-family: MontserratR; /* Имя шрифта */
     src: url(../fonts/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+.bg_light {
+   background-color: #fafafa;
+   }
+.bg_white {
+	background-color: #888;
+}
+.bg_dark {
+   	background-color: #222;
+   }
+.text-center {
+   	text-align: center;
    }
 /*********** TOP HEADER **********/
 #header {
@@ -53,11 +67,6 @@ html, body {
 
 }
 
-
-* {
-  margin: 0;
-  padding: 0; 
-}
 
 /* Icon 1 */
 
@@ -235,7 +244,7 @@ html, body {
 }
 
 .top_descr {
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -248,7 +257,7 @@ html, body {
 	padding: 20px 50px;
 	text-transform: uppercase;
 	background-color: rgba(0,0,0,.5);
-	box-shadow: rgba(0,0,0,.5) 0 0 0 1000px;
+	/*box-shadow: rgba(0,0,0,.5) 0 0 0 700px; в оригинале почемуто это убрано*/
 	letter-spacing: 3px;
 	font-family: MontserratB;
 }
@@ -261,5 +270,32 @@ html, body {
 .opacify {
 	opacity: .4;
 	transition: all 0.5s ease;
+}
+section {
+	padding: 70px 0;
+}
+section h2 {
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}
+.s_descr {
+ display: inline-block;
+ text-transform: uppercase;
+ font-size: 12px;
+ letter-spacing: 5px;
+ position: relative;
+ margin-bottom: 130px;
+}
+.s_descr_wrap .s_descr:after {
+	content: "";
+	height: 2px;
+	width: 150px;
+	position: absolute;
+	left: 50%;
+	background-color: #222;
+	margin-left: -75px;
+	margin-top: 60px;
 
 }
