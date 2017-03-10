@@ -49,7 +49,7 @@ html, body {
 /*********** TOP HEADER **********/
 #header {
 	background: url(../img/header.jpg) no-repeat center bottom;
-	height: 760px;
+	height: 770px;
 }
 
 .logo {
@@ -263,7 +263,7 @@ html, body {
 }
 
 .top_descr {
-	top: 60%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -301,6 +301,15 @@ section h2 {
 	text-transform: uppercase;
 	margin: 0 0 15px;
 }
+section h3 {
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
 .s_descr {
  display: inline-block;
  text-transform: uppercase;
@@ -326,4 +335,42 @@ section h2 {
 	font-size: 13px;
 	letter-spacing: 1px;
 	font-weight: 700;
+}
+
+.personal {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.personal img {
+	max-width: 220px;
+	display: inline-block;
+	border-radius: 50%;
+}
+.s_about p {
+	margin-bottom: 25px;
+}
+.s_about p:nth-child(even) {
+	color: #FF6347;
+}
+.personal_header {
+	font-size: 13px;
+	text-align: left;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+.s_about ul,li {
+	/*margin: 0;
+	padding: 0; и так не было этого*/
+	list-style-type: none;
+}
+.s_about li {
+	margin-bottom: 10px;
+}
+.social_wrap {
+	margin-top: 20px;
+}
+.social_wrap li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 0 3px;
 }
