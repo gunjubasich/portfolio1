@@ -10,6 +10,8 @@ $(document).ready(function(){
 	$(".animation_2").animated("flipInY", "flipOutY");
 	$(".animation_3").animated("fadeInRight", "fadeOutRight");
 
+	$(".right .resume_item").animated("fadeInRight", "FadeOutDown");
+	$(".left .resume_item").animated("fadeInLeft", "FadeOutDown");
 
 	$("#nav-icon3").click(function(){
 		$(this).toggleClass("open");

@@ -374,3 +374,62 @@ section h3 {
 	font-size: 20px;
 	padding: 0 3px;
 }
+.resume_container .left {
+	text-align: right;
+}
+.resume_container .left h3 {
+	text-align: right;
+	
+}
+.resume_container .right {
+	text-align: left;
+}
+.resume_container .right h3 {
+	text-align: left;
+}
+.resume_container h3 {
+	margin-top: 30px;
+	color: #222;
+	font-size: 16px;
+}
+
+.resume_container .left {
+	border-right: #d2d2d2  1px solid;
+}
+.resume_icon {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.resume_item {
+	margin-bottom: 35px;
+}
+.resume_item:last-child {
+	margin-bottom: 0;
+}
+
+.resume_item .year {
+	display: inline-block;
+	margin-bottom: 15px;
+	padding: 0 15px;
+	background-color: #FF6347;
+	color: #fff;
+	font-weight: 600;
+	font-style: italic;
+}
+.resume_description  {
+	font-style: italic;
+	letter-spacing: 1px;
+}
+.resume_description p {
+	margin-top: 10px;
+}
+.resume_description strong {
+	font-style: normal;
+	text-transform: uppercase;
+}
+.left .resume_description strong {
+	margin-left: 20px;
+}
+.right .resume_description strong {
+	margin-right: 20px;
+}
