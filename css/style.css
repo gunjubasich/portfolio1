@@ -336,6 +336,13 @@ section h3 {
 	letter-spacing: 1px;
 	font-weight: 700;
 }
+.main_footer .social_wrap {
+	float: right;
+	margin: 0;
+}
+.main_footer ul>li>a {
+	color: #FF6347;
+}
 
 .personal {
 	text-align: center;
@@ -493,4 +500,27 @@ margin-top: 20px;
 	padding: 2px 10px;
 	border-color: #FF6347;
 	color: #FF6347;
+	display: inline-block;
+	text-decoration: none;
+}
+.pot_descr {
+	background-color: #fff;
+	max-width: 750px;
+	margin: auto;
+	padding: 0;
+	position: relative;
+}
+.pot_descr h3, p {
+	padding: 20px 20px 0 20px;
+}
+.pot_descr h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.pot_descr p {
+	margin-bottom: 20px;
+}
+.pot_descr img {
+	width: 100%;
 }
