@@ -1,6 +1,13 @@
 
 $(document).ready(function(){
 
+	var mixer = mixitup("#portfolio_grid");
+
+	$(".s_portfolio li").click(function(){
+		$(".s_portfolio li").removeClass("active");
+		$(this).addClass("active")
+	});
+
 	$(".popup").magnificPopup({type:"image"});
 
 	$(".top_descr h1").animated("zoomInUp", "zoomOutDown");

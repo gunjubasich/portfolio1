@@ -62,9 +62,9 @@ html, body {
 	height: 100px;
 }
 .toggle_mnu {
-	width: 100px;
-	height: 100px;
-	background: none;
+	width: 60px;
+	height: 60px;
+	background: #222;
 	border: none;
 	outline: none;
 	right: 30px;
@@ -78,7 +78,7 @@ html, body {
 /* Icon 1 */
 
 #nav-icon3 {
-  width: 60px;
+  width: 50px;
   height: 40px;
   display: block;
  /* z-index: 1;*/
@@ -432,4 +432,65 @@ section h3 {
 }
 .right .resume_description strong {
 	margin-right: 20px;
+}
+.s_portfolio ul, li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.s_portfolio li {
+	display: inline-block;
+	margin: 0 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	color: #888;
+	line-height: 1.8;
+}
+.s_portfolio li.active  {
+	color: #fff;
+	border-bottom: 1px solid #FF6347;
+}
+.portfolio_item {
+	padding: 0;
+	margin: 0;
+}
+#portfolio_grid {
+margin-top: 20px;
+
+}
+#portfolio_grid img {
+	width: 100%;
+}
+.port_cont {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+	text-align: center;
+	padding-top: 15%;
+	opacity: 0;
+	transition: all .5s;
+}
+.port_cont:hover {
+	opacity: 1;
+	padding-top: 20%;
+}
+.port_cont p {
+	margin: 10px auto;
+}
+.port_cont h3 {
+	color: #fff;
+	margin-bottom: 0;
+}
+.port_cont a {
+	background-color: transparent;
+	border: 1px #fff solid;
+	padding: 2px 10px;
+	border-color: #FF6347;
+	color: #FF6347;
 }
