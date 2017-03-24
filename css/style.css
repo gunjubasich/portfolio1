@@ -382,6 +382,10 @@ section h3 {
 	font-size: 20px;
 	padding: 0 3px;
 }
+.social_wrap ul>li>a {
+	color: #FF6347;
+}
+
 .resume_container .left {
 	text-align: right;
 }
