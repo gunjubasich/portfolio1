@@ -34,10 +34,10 @@
 					</button>
 					<nav class="top_mnu">
 						<ul>
-							<li><a href="#">Обо мне</a></li>
-							<li><a href="#">Резюме</a></li>
-							<li><a href="#">Айнане</a></li>
-							<li><a href="#">Контакте</a></li>
+							<li><a href="#about">Обо мне</a></li>
+							<li><a href="#resume">Резюме</a></li>
+							<li><a href="#portfolio">Портолио</a></li>
+							<li><a href="#contacts">Контакте</a></li>
 						</ul>
 					</nav>
 			</div>
@@ -167,7 +167,7 @@
 					<li data-filter=".category-c">Еноты</li>
 				</ul>
 				<div id="portfolio_grid">	
-					<div class="col-md-3 portfolio_item mix category-b">
+					<div class="col-md-3 col-sm-4 col-xs-6 portfolio_item mix category-b">
 					<img src="img/pes1.jpg" alt="Пес">
 						<div class="port_cont">
 							<h3>Заголовок</h3>
@@ -182,7 +182,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 portfolio_item mix category-b">
+					<div class="col-md-3 col-sm-4 col-xs-6 portfolio_item mix category-b">
 					<img src="img/pes3.jpg" alt="Пес">
 						<div class="port_cont">
 							<h3>Заголовок</h3>
@@ -197,7 +197,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 portfolio_item mix category-a">
+					<div class="col-md-3 col-sm-4 col-xs-6 portfolio_item mix category-a">
 					<img src="img/cat1.jpg" alt="Пес">
 						<div class="port_cont">
 							<h3>Заголовок</h3>
@@ -212,7 +212,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 portfolio_item mix category-a">
+					<div class="col-md-3 col-sm-4 col-xs-6 portfolio_item mix category-a">
 					<img src="img/cat2.jpg" alt="Пес">
 						<div class="port_cont">
 							<h3>Заголовок</h3>
@@ -227,7 +227,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 portfolio_item mix category-a">
+					<div class="col-md-3 col-sm-4 col-xs-6 portfolio_item mix category-a">
 					<img src="img/cat3.jpg" alt="Пес">
 						<div class="port_cont">
 							<h3>Заголовок</h3>
@@ -242,7 +242,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 portfolio_item mix category-c">
+					<div class="col-md-3 col-sm-4 col-xs-6 portfolio_item mix category-c">
 					<img src="img/enot1.jpg" alt="Пес">
 						<div class="port_cont">
 							<h3>Заголовок</h3>
@@ -273,7 +273,45 @@
 	<div class="section_content">
 		<div class="container">
 			<div class="row">
-				
+				<div class="col-md-6 col-sm-6">
+					<div class="contact-box">
+						<div class="contacts_icon icon-basic-geolocalize-05"></div>
+						<h3>Адрес</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae.</p>
+					</div>
+					<div class="contact-box">
+						<div class="contacts_icon icon-basic-smartphone"></div>
+						<h3>Телефон</h3>
+						<p>+7 999 999 99 99</p>
+					</div>
+					<div class="contact-box">
+						<div class="contacts_icon icon-basic-webpage-img-txt"></div>
+						<h3>Веб-сайт</h3>
+						<p><a href="vk.com" target="_blanlk">VK.COM</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<form class="main_form" novalidate action="https://formspree.io/gunjubasich@gmail.com" target="_blanket" method="POST">
+						<label class="form-group">
+						<span class="color_element">*</span>Ваше имя:
+						<input type="text" name="name" required data-validation-required-message="Введите имя" placeholder="Ваше имя" />
+						<p class="help-block text-danger"></p>
+						</label>
+
+						<label class="form-group">
+						<span class="color_element">*</span>Ваш E-mail:
+						<input type="email" name="email" required  data-validation-required-message="Введите E-mail" data-validation-email-message="Не верно введён E-mail" placeholder="Ваш E-mail" />
+						<p class="help-block text-danger"></p>
+						</label>
+
+						<label class="form-group">
+						<span class="color_element">*</span>Ваше сообщение:
+						<textarea name="message" required data-validation-required-message="Введите текст" placeholder="Ваше сообщение"></textarea>
+						<p class="help-block text-danger"></p>
+						</label>
+						<button>Отправить</button>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>	
@@ -303,10 +341,12 @@
     <script src="js/animate-css.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/mixitup.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
  new WOW().init();
 </script>
-<script src="js/common.js"></script>
+	<script src="js/common.js"></script>
 </html>

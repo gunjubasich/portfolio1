@@ -47,4 +47,7 @@ $(".toggle_mnu").click(function(){
 		$(".top_mnu li a").addClass("fadeInUp animated"); // элементы меню выезжают снизу
 	};
 });
+		$("input, select, textarea").jqBootstrapValidation();
+		
+		$("a[href*='#']").mPageScroll2id();
 

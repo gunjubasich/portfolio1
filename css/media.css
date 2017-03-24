@@ -28,8 +28,13 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
-
+  .main_footer{
+    text-align: left;
+  }
+  .main_footer .social_wrap {
+    float: left;
+    width: 100%;
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
